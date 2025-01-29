@@ -24,12 +24,14 @@ def main():
   num= num % 20 # 0-19
 
 
-
-
-
-
-
-
-
+  Question= input("Ask me a yes or no question: ")
+  print(answers[num])
   
+
+
+
+
+
+
 if __name__ == '__main__':
+  main()
